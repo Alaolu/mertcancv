@@ -1,0 +1,179 @@
+::selection {
+    background-color: yellow;
+    color: darkgreen;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(logowithoutalaolu111.png), url(cvbackgroundimg.jpg);
+    background-repeat: repeat-x, no-repeat;
+    background-size: 244px 183px ,cover;
+    background-position:center;
+}
+.isim {
+    display: inline-block;
+    font-size: 38px;
+    font-style: italic;
+    color: greenyellow;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    background: none; 
+    transition-property: color;
+    transition-duration: 500ms;
+}
+.isim:hover{
+    color: green;
+    transition-property: color;
+    transition-duration: 500ms;
+}
+#hrhr  {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    margin-top: -5px;
+}
+
+
+.üstbölge {
+    background: none;
+    display: block;
+    font-size: 15px;
+    list-style: none;
+    text-align: center;
+    padding-left: 500px;
+    margin-top: 4px;
+    
+}
+.üstbölge li{
+    background: none;
+    font-size: 19px;
+    display: inline;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.üstbölge li a{
+    text-decoration: none;
+    color: greenyellow;
+    transition: color 1s;
+}
+.üstbölge li a:hover{
+    color: darkolivegreen;
+}
+.üstbölge li a::before{
+    content: "((";
+    margin-right: 1px;
+    opacity: 0;
+    transition-property: margin-right, opacity;
+    transition-duration: 1s;
+
+}
+.üstbölge li a::after{
+    content: "))";
+    margin-left: 1px;
+    opacity: 0;
+    transition-property: margin-left, opacity;
+    transition-duration: 1s;
+
+}
+.üstbölge li a:hover::before{
+    opacity: 1;
+    margin-right: 6px;
+}
+.üstbölge li a:hover::after{
+    opacity: 1;
+    margin-left: 6px;
+}
+.ortakısım {
+    background-image: url(ortasagkisimbackground.jpg);
+    border-color: greenyellow;
+    border-style: solid;
+    border-width: 5px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    width: 1250px;
+    height: 700px;
+    opacity: 1;
+}
+.baslık{
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: darkgreen;
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 20px;
+}
+.okul {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    color: green;
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+}
+.lisebölümzamanyer {
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    color: green;
+    margin-top: 30px;
+}
+.bölüm, .zaman, .yer {
+    padding: 0px 60px;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background: none;
+    opacity: 1;
+
+}
+
+.logolar {
+    
+    margin: 10px 0px;
+    background: none;
+    display: block;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    z-index: 0;
+}
+.logolar1 {
+    background:none;
+    width: 50px;
+    height: 50px;
+    margin: 20px 150px;
+    
+}
+.telif {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+    color: greenyellow;
+    text-shadow: 0 1px rgba(255,255,255,0.1);
+    display: block;
+    text-align: center;
+    opacity: 0.3;
+}
